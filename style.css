@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: helvetica now display;
+    }
+        
+html,
+body{
+        width: 100%;
+        height: 100%;
+    }
+
+.panel{
+    position: absolute;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    background-color: #454445;
+}
+
+a{
+    color: rgba(245, 245, 245, 0.468);
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+i{
+    color: rgba(245, 245, 245, 0.468);
+}
+i:hover{
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
